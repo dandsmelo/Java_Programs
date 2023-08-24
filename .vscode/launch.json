@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "maiorcondicional",
+            "request": "launch",
+            "mainClass": "maiorcondicional",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "parimpar",
+            "request": "launch",
+            "mainClass": "parimpar",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "cardapio",
+            "request": "launch",
+            "mainClass": "cardapio",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "mediaAluno",
+            "request": "launch",
+            "mainClass": "mediaAluno",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "App2",
+            "request": "launch",
+            "mainClass": "App2",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "App5",
+            "request": "launch",
+            "mainClass": "App5",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "App6",
+            "request": "launch",
+            "mainClass": "App6",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "App7",
+            "request": "launch",
+            "mainClass": "App7",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "Matriz",
+            "request": "launch",
+            "mainClass": "Matriz",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "atv17_08",
+            "request": "launch",
+            "mainClass": "atv17_08",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "circunferencia",
+            "request": "launch",
+            "mainClass": "circunferencia",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "conversaoF",
+            "request": "launch",
+            "mainClass": "conversaoF",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "conversaodolar",
+            "request": "launch",
+            "mainClass": "conversaodolar",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "idade",
+            "request": "launch",
+            "mainClass": "idade",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "ordemcresc",
+            "request": "launch",
+            "mainClass": "ordemcresc",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "prestacao",
+            "request": "launch",
+            "mainClass": "prestacao",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "quadradonum",
+            "request": "launch",
+            "mainClass": "quadradonum",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "resto",
+            "request": "launch",
+            "mainClass": "resto",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "tecProgm",
+            "request": "launch",
+            "mainClass": "tecProgm",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "temperatura",
+            "request": "launch",
+            "mainClass": "temperatura",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "troca",
+            "request": "launch",
+            "mainClass": "troca",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "volume",
+            "request": "launch",
+            "mainClass": "volume",
+            "projectName": "Java_Programs_a4709c39"
+        }
+    ]
+}
