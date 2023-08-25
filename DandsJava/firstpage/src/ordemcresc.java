@@ -31,15 +31,11 @@ public class ordemcresc {
             int temp = num2;
             num2 = num3;
             num3 = temp;
-            if(num1 > num3){
+            if(num1 > num2){
                 temp = num1;
-                num1 = num3;
-                num3 = temp;
-        } /*else if(num1 > num2){
-            int temp = num1;
-            num1 = num2;
-            num2 = temp;
-        }*/
+                num1 = num2;
+                num2 = temp;
+        }
         }else if(num1 > num3){
             int temp = num1;
             num1 = num3;
@@ -50,7 +46,6 @@ public class ordemcresc {
                 num2 = temp;
             }
         }
-    System.out.print(num1 + " " + num2 + " "+ num3);
+        System.out.print(num1 + " " + num2 + " "+ num3);
+    }
 }
-}
-//Arrumar código

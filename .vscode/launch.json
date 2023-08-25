@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConversaoRepeticao",
+            "request": "launch",
+            "mainClass": "ConversaoRepeticao",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "Fatorial",
+            "request": "launch",
+            "mainClass": "Fatorial",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "SomaTotal",
+            "request": "launch",
+            "mainClass": "SomaTotal",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "MaiorMenorRepeticao",
+            "request": "launch",
+            "mainClass": "MaiorMenorRepeticao",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
             "name": "ordemcresc",
             "request": "launch",
             "mainClass": "ordemcresc",
