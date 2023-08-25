@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ordemcresc",
+            "request": "launch",
+            "mainClass": "ordemcresc",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
             "name": "maiorcondicional",
             "request": "launch",
             "mainClass": "maiorcondicional",
