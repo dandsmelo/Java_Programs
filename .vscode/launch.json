@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "Teste",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
             "name": "ConversaoRepeticao",
             "request": "launch",
             "mainClass": "ConversaoRepeticao",
