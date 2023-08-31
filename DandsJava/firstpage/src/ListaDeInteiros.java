@@ -19,5 +19,23 @@ public class ListaDeInteiros{
             throw new Exception("ERRO! Lista cheia");
         }
     }
-   
+   public String toString(){
+    String s = "Elementos: ";
+    for (int i=0 ;i<tamanho;i++){
+        s = s + " " + dados[i];
+   }
+   s = s + "\nTamanho: " + tamanho;
+   return s;
+    }
+    public int removeFinal ( )throws Exception{
+        if (tamanho != 0) {
+        // não está vazia
+        tamanho = tamanho - 1;
+        return dados[tamanho] ;
+        } else {
+        //sim está vazia
+        throw new Exception("ERRO! Lista Vazia");
+        }
+        }
+        
 }
