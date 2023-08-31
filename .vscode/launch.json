@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayABFatorial",
+            "request": "launch",
+            "mainClass": "ArrayABFatorial",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "ArrayNotas",
+            "request": "launch",
+            "mainClass": "ArrayNotas",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "ArrayAB",
+            "request": "launch",
+            "mainClass": "ArrayAB",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "Array1",
+            "request": "launch",
+            "mainClass": "Array1",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
             "name": "Teste",
             "request": "launch",
             "mainClass": "Teste",
