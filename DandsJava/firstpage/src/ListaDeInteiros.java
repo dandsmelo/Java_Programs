@@ -27,8 +27,20 @@ public class ListaDeInteiros{
    s = s + "\nTamanho: " + tamanho;
    return s;
     }
+    public int obtemultimo()throws Exception{
+        if(vazia())
+            throw new Exception("ERRO! Lista Vazia");
+        else
+            return dados[tamanho-1 ];
+    }
+    public int obterPrimeiro()throws Exception{
+        if(!vazia())
+            return dados [0];
+        else 
+        throw new Exception("ERRO! Lista Vazia");
+    }
     public int removeFinal ( )throws Exception{
-        if (tamanho != 0) {
+        if (!vazia()) {
         // não está vazia
         tamanho = tamanho - 1;
         return dados[tamanho] ;
@@ -38,4 +50,11 @@ public class ListaDeInteiros{
         }
         }
         
+        public boolean vazia(){
+            return tamanho == 0;
+        }
+
+        public boolean cheia(){
+            return tamanho==dados.length;
+        }
 }
