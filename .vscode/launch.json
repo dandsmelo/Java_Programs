@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aluno",
+            "request": "launch",
+            "mainClass": "Aluno",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
+            "name": "ContaCorrente",
+            "request": "launch",
+            "mainClass": "ContaCorrente",
+            "projectName": "Java_Programs_a4709c39"
+        },
+        {
+            "type": "java",
             "name": "ArrayABFatorial",
             "request": "launch",
             "mainClass": "ArrayABFatorial",
