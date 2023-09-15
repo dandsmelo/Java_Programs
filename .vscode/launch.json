@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Retangulo",
+            "request": "launch",
+            "mainClass": "Retangulo",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
             "name": "Aluno",
             "request": "launch",
             "mainClass": "Aluno",
