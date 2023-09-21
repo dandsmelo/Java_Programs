@@ -5,10 +5,9 @@ public class ListaDeInteiros{
     public ListaDeInteiros(int capMax){
         dados = new int[capMax];
 
-        //o java pré inicializa os atributos do tipo inteiro com o valor 0, do tipo real com o valor 0.0 e atributos
-        // com o tipo abstratato de dados são inicializados com null
-        //Portanto tamanho recebeu o valor 0 
+        //o java pré inicializa os atributos do tipo inteiro com o valor 0, do tipo real com o valor 0.0 e atributos com o tipo abstratato de dados são inicializados com null. Portanto tamanho recebeu o valor 0 
     }
+
     public void adicionaFinal(int e)throws Exception{
          if(dados.length != tamanho){
         //não está cheia
@@ -19,6 +18,7 @@ public class ListaDeInteiros{
             throw new Exception("ERRO! Lista cheia");
         }
     }
+
    public String toString(){
     String s = "Elementos: ";
     for (int i=0 ;i<tamanho;i++){
@@ -27,18 +27,21 @@ public class ListaDeInteiros{
    s = s + "\nTamanho: " + tamanho;
    return s;
     }
-    public int obtemultimo()throws Exception{
+
+    public int obterUltimo()throws Exception{
         if(vazia())
             throw new Exception("ERRO! Lista Vazia");
         else
             return dados[tamanho-1 ];
     }
+
     public int obterPrimeiro()throws Exception{
         if(!vazia())
             return dados [0];
         else 
         throw new Exception("ERRO! Lista Vazia");
     }
+
     public int removeFinal ( )throws Exception{
         if (!vazia()) {
         // não está vazia
@@ -48,13 +51,13 @@ public class ListaDeInteiros{
         //sim está vazia
         throw new Exception("ERRO! Lista Vazia");
         }
-        }
+    }
         
         public boolean vazia(){
             return tamanho == 0;
         }
 
         public boolean cheia(){
-            return tamanho==dados.length;
+            return tamanho == dados.length;
         }
 }

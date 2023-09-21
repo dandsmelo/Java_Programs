@@ -6,10 +6,10 @@ public class Teste2 {
         int op, valor;
         Scanner sc = new Scanner(System.in);
         do{
-            System.out.println("1-Adicionar no final\n2-Adicionar no início\n3-Remover do final");
-            System.out.println("4-Remover do início\n5-Consulta a lista\n6-Sair");
-            System.out.println("6-Consultar o último elemento");
-            System.out.println("7-Consultar o primeiro elemento\n99-sair");
+            System.out.println("1-Adicionar no final\n2-Adicionar no início");
+            System.out.println("3-Remover do final\n4-Remover do início");
+            System.out.println("5-Consulta a lista\n6-Consultar o último elemento");
+            System.out.println("7-Consultar o primeiro elemento\n99-Sair");
             op=sc.nextInt();
             try{
                 switch(op){
@@ -32,10 +32,11 @@ public class Teste2 {
                        System.out.println("Lista: " + lista1.toString());
                        break;
                     case 6:
-                       System.out.println("Último elemento " + lista1.obtemultimo());
+                       System.out.println("Último elemento " + lista1.obterUltimo());
                        break;
                     case 7:
-
+                        System.out.println("Primeiro elemento "+lista1.obterPrimeiro());
+                        break;
                     case 99:
                        System.out.println("Saindo.... ");
                        break;
