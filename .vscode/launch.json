@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainEstudante",
+            "request": "launch",
+            "mainClass": "MainEstudante",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
+            "name": "MainProduto",
+            "request": "launch",
+            "mainClass": "MainProduto",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
+            "name": "MainLivro",
+            "request": "launch",
+            "mainClass": "MainLivro",
+            "projectName": "Java_Programs_90ec0d96"
+        },
+        {
+            "type": "java",
             "name": "Retangulo",
             "request": "launch",
             "mainClass": "Retangulo",
